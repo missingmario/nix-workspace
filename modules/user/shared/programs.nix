@@ -13,5 +13,9 @@ in
     source = config.lib.file.mkOutOfStoreSymlink "${xdgConfigDir}/ghostty";
   };
 
+  xdg.configFile."homebrew/Brewfile" = {
+    source = config.lib.file.mkOutOfStoreSymlink "${xdgConfigDir}/homebrew/Brewfile";
+  };
+
   programs.eza.enable = true;
 }

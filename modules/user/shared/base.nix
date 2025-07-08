@@ -14,4 +14,6 @@
     pkgs.nixd
     pkgs.nixfmt-rfc-style
   ];
+
+  xdg.enable = true;
 }

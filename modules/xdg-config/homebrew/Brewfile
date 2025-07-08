@@ -1,0 +1,9 @@
+brew "ruby@3.4"
+
+cask "ghostty"
+cask "visual-studio-code"
+
+vscode "catppuccin.catppuccin-vsc"
+vscode "catppuccin.catppuccin-vsc-icons"
+vscode "dart-code.dart-code"
+vscode "dart-code.flutter"

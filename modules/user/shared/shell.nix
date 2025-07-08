@@ -1,4 +1,3 @@
-
 { ... }:
 {
   programs.zsh = {
@@ -7,11 +6,13 @@
     syntaxHighlighting.enable = true;
 
     profileExtra = ''
-      eval "$(/opt/homebrew/bin/brew shellenv)"
+      source ~/.config/zsh/modules/homebrew.zsh
     '';
 
     initContent = ''
       eval "$(mise activate zsh)"
     '';
   };
+
+  xdg.configFile."zsh/modules".source = ../../xdg-config/zsh-modules;
 }
