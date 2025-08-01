@@ -1,6 +1,9 @@
 brew "ruby@3.4"
 
 cask "ghostty"
+cask "rectangle"
+cask "latest"
+
 cask "visual-studio-code"
 
 vscode "catppuccin.catppuccin-vsc"

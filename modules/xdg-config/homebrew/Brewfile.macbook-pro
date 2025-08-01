@@ -1,0 +1,11 @@
+cask "iina"
+cask "keka"
+
+cask "1password"
+cask "obsidian"
+cask "notion"
+cask "discord"
+
+cask "qbittorrent"
+
+cask "intellij-idea"
