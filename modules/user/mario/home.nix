@@ -6,6 +6,8 @@
 
   home.packages = [
     pkgs.lua-language-server
+    pkgs.texliveFull
+    pkgs.pandoc
   ];
 
   programs.git = {
